@@ -1,8 +1,8 @@
 # KeywordsSpotting-EfficientNet-A0
-EfficientNet-Absolute Zero for Continuous Speech Keyword Spotting
+Keyword spotting in continuous speech using convolutional neural network
 
-This is a PyTorch implementation of some popular CNN models architecture like [Deep Residual Models](https://arxiv.org/abs/1710.10361), [Convolutional Neural Networks for Keyword Spotting](https://research.googleblog.com/2017/08/launching-speech-commands-dataset.html), and our proposed architecture based on [EfficientNet](https://arxiv.org/abs/1905.11946). all models are trained on our new Persian Keyword Spotting Dataset that you can download from [Football Keywords Dataset](https://drive.google.com/file/d/1m0CoqVzneGVxfTx-uGpAXdZvPNgH9gjS/view?usp=sharing). For more details, please check out our paper [EfficientNet-Absolute Zero for Continuous Speech Keyword Spotting
-](https://arxiv.org/abs/2012.15695).
+This is a PyTorch implementation of some popular CNN models architecture like [Deep Residual Models](https://arxiv.org/abs/1710.10361), [Convolutional Neural Networks for Keyword Spotting](https://research.googleblog.com/2017/08/launching-speech-commands-dataset.html), and our proposed architecture based on [EfficientNet](https://arxiv.org/abs/1905.11946). all models are trained on our new Persian Keyword Spotting Dataset that you can download from [Football Keywords Dataset](https://drive.google.com/file/d/1m0CoqVzneGVxfTx-uGpAXdZvPNgH9gjS/view?usp=sharing). For more details, please check out our paper [Keyword spotting in continuous speech using convolutional neural network
+](https://www.sciencedirect.com/science/article/abs/pii/S016763932200084X?via%3Dihub) / [DOI](https://doi.org/10.1016/j.specom.2022.06.001).
 
 This repository is based on [Honk-Repository](https://github.com/castorini/honk-models). Honk models can be used to identify simple commands (e.g., "stop" and "go") that trained on [Speech Commands Dataset](https://research.googleblog.com/2017/08/launching-speech-commands-dataset.html). but our work has some improvements and advantages as below:
 1. We used the modified state of the art image classification architecture, `efficientNet`, as a based model.
